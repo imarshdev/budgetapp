@@ -1,7 +1,8 @@
+import "../styles/dash.css";
 export default function Dashboard() {
   return (
     <div className="dashboard">
-      <h1>Dashboard</h1>
+      <h3>Hello Marsh !</h3>
       <p>
         Current Balance: <span>0.00</span>{" "}
         <span style={{ fontSize: "9px" }}>(cash, savings, other accounts)</span>
