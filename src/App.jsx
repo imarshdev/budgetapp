@@ -1,15 +1,13 @@
-import Intro, { TopBar } from "./components/blocks/intro";
-import StackAndProjects from "./components/blocks/stack";
-import Outro from "./components/blocks/outro";
+import Dashboard from "./components/blocks/1.dashboard";
+import Income from "./components/blocks/2.income";
+import Expenses from "./components/blocks/3.expenses";
 
 export default function App() {
   return (
     <div className="container">
-      <TopBar />
       <div className="content">
-        <Intro />
-        <StackAndProjects />
-        <Outro />
+        <Dashboard />
+        <Income />
       </div>
     </div>
   );
