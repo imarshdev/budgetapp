@@ -4,7 +4,7 @@ export default function Dashboard() {
       <h1>Dashboard</h1>
       <p>
         Current Balance: <span>0.00</span>{" "}
-        <span style={{ fontSize: "10px" }}>
+        <span style={{ fontSize: "9px" }}>
           (cash, savings, other accounts)
         </span>
       </p>
